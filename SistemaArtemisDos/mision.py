@@ -6,6 +6,10 @@ class Mision:
         self.nave = nave
         self.tripulacion = []
 
+    def finalizar_mision(self):
+        self.nave.aterrizar()
+        print("descendiendo de la nave...")
+
     def agregar_astronauta(self, astronauta):
         self.tripulacion.append(astronauta)
 

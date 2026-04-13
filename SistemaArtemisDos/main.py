@@ -26,3 +26,4 @@ mision.agregar_astronauta(astronauta4)
 
 # Iniciar misión
 mision.iniciar_mision()
+mision.finalizar_mision()

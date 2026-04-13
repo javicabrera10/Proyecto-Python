@@ -6,3 +6,5 @@ class Nave:
 
     def despegar(self):
         print(f"La nave {self.nombre} está despegando...")
+    def aterrizar(self):
+        print(f"Aterrizando {self.nombre}")
