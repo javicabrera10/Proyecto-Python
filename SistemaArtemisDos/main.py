@@ -26,4 +26,8 @@ mision.agregar_astronauta(astronauta4)
 
 # Iniciar misión
 mision.iniciar_mision()
+
+astronauta1.mostrarDatos()
+astronauta1.edad = 24 #se setea la edad no lleva ()
+astronauta1.mostrarDatos()
 mision.finalizar_mision()

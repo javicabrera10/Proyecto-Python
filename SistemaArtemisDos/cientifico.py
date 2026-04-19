@@ -2,4 +2,4 @@ from astronauta import Astronauta
 
 class Cientifico(Astronauta):
     def tarea(self):
-        print(f"{self.nombre} realiza experimentos")
+        print(f"{self.get_nombre()} realiza experimentos")
